@@ -178,7 +178,7 @@
 }
 .firstpart{
     margin-left: 5%;
-    margin-top: 100px;
+    margin-top: 60px;
     margin-right: 5%;
 }
 .livesection{
@@ -198,14 +198,88 @@
 
 .secondpart img{
     width: 450px;
-    height: 500px;
+    height: 420px;
     border-radius: 5px;
 }
 .secondpart{
-    margin-right: 5%;
+    margin-left: 2%;
 }
 .livepara{
     line-height: 25px;
     margin-bottom: 35px;
     text-align: justify;
+}
+
+
+
+.need{
+    margin-top: 40px;
+}
+.needsection{
+    display: flex;
+}
+.need .imagepart{
+    margin-left: 5%;
+}
+.imagesurvive{
+    width: 450px;
+    height: 420px;
+    border-radius: 5px;
+}
+.needus{
+    margin-top: 35px;
+    font-size: 38px;
+    margin-bottom: 10px;
+}
+
+.getmyupdates{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 36px;
+}
+
+
+
+.todonatefrom{
+    font-size: 18px;
+    text-align: center;
+    margin-top: 8px;
+}
+
+
+
+
+
+.subscribe{
+    background-color:#FF5959;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border-radius: 3px;
+}
+.email{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff4d6;
+    width: 800px;
+    height: 200px;
+    margin: auto;
+    margin-top: 20px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+
+}
+.emailpart{
+    padding: 10px 20px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: #D9D9D9;
+    border: none;
+    height: 20px;
+}
+.emailpart:focus{
+    outline: none;
 }
