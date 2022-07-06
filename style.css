@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@400;700&family=Montserrat:wght@200;300&family=Quantico&family=Spline+Sans+Mono:wght@500&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -212,6 +214,12 @@
 
 
 
+
+
+.needpart{
+    margin-left: 100px;
+}
+
 .need{
     margin-top: 40px;
 }
@@ -282,4 +290,27 @@
 }
 .emailpart:focus{
     outline: none;
+}
+
+.footer{
+    background-color: #000;
+    margin-top: 80px;
+
+}
+.footeritem{
+   padding-top: 20px;
+   
+}
+
+.behumble{
+    text-align: center;
+    color: #FF5959;
+    font-size: 32px;
+    font-family: 'Spline Sans Mono', monospace;
+}
+.gonna{
+    text-align: center;
+    color: #fff;
+    padding-top: 10px;
+    font-size: 18px;
 }
